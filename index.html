@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranaya Khadka | Portfolio</title>
+
+  <!-- Inter Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Pranaya</div>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Aspiring Web & AI Developer</h1>
+    <p>Building clean, scalable, and intelligent digital experiences.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#resume" class="btn outline">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+    </div>
+
+    <div class="project-grid">
+      <div class="card project web">Portfolio Website</div>
+      <div class="card project web">Task Manager App</div>
+      <div class="card project web">Landing Page</div>
+      <div class="card project ai">AI Chatbot</div>
+      <div class="card project ai">Face Detection</div>
+      <div class="card project ai">Recommendation System</div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill-grid">
+      <div class="card">Frontend<br><span>HTML, CSS, JS</span></div>
+      <div class="card">Backend<br><span>Python, Node.js</span></div>
+      <div class="card">Database<br><span>MySQL, MongoDB</span></div>
+      <div class="card">AI / ML<br><span>TensorFlow, OpenCV</span></div>
+      <div class="card">Tools<br><span>Git, GitHub</span></div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+
+    <div class="cert-grid">
+      <div class="card">Python Programming<br><span>2023</span></div>
+      <div class="card">Web Development<br><span>2024</span></div>
+      <div class="card">AI Fundamentals<br><span>2024</span></div>
+      <div class="card">Git & GitHub<br><span>2025</span></div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume below.</p>
+    <a href="resume.txt" download class="btn">Download Resume</a>
+  </section>
+
+  <!-- Footer -->
+<footer>
+  <div class="social-card">
+    <a href="https://www.linkedin.com/in/pranaya-khadka-142270336/" target="_blank">
+      <img src="img/linkdin.jpg" alt="LinkedIn">
+      <span>LinkedIn</span>
+    </a>
+  </div>
+  <div class="social-card">
+    <a href="mailto:khadkapranaya14@gmail.com">
+      <img src="img/gmail.jpg" alt="Email">
+      <span>Email</span>
+    </a>
+  </div>
+  <div class="social-card">
+    <a href="https://www.instagram.com/khadka_pranaya/" target="_blank">
+      <img src="img/instagram.jpg" alt="Instagram">
+      <span>Instagram</span>
+    </a>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
